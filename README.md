@@ -1,6 +1,10 @@
 # misc
 various commands used in systems
 
+## forward a port for remote ipython notebook
+ssh -N -f -L localhost:8888:localhost:8889 ydong26@jp-gpu1.cs.mcgill.ca
+
+
 RUN LAB SERVER GPU
 ydong26@jc-9 ~ $ nvidia-smi
 nvidia-smi: command not found
